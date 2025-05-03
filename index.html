@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d24b8cf9d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Header Section  -->
+
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#servicse">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h3>
+          <p> Software Developer</p>
+        </h3>
+        <h1>Hi, I'm <span> Aryan Raj</span></h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p> A dedicated and organized student with strong time management skills, seeking a challenging role in a
+            reputed organization
+            where I can apply my programming skills while continuously expanding my knowledge to innovate and develop
+            cutting-edge
+            software solutions that contribute to the organization's growth and success.
+          </p>
+
+          <div class="tab-titles">
+
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experirnce')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li> <span>Web Designing</span> <br> HTML CSS JAVASCRIPT</li>
+              <li> <span>Java Developer</span> <br> Web App Devlopment</li>
+              <li> <span>Backend Devloper</span> <br> Backend Devlopment / AWS</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experirnce">
+            <ul>
+              <li> <span>2024</span> <br>Intern at octanet</li>
+              <li> <span>2023</span> <br> Java Development at Octanet Services Pvt. Ltd</li>
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li> <span>2025</span> <br>B.Tech From PIET Haryana.</li>
+              <li> <span>2020</span> <br>12th, Janta College, Singhiya buzurg, Bihar.</li>
+              <li> <span>2018</span> <br>10th City Central School, Samastipur, Bihar.</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------------Services------------ -->
+  <div id="servicse">
+    <div class="container">
+      <h1 class="sub-title"> My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Designing</h2>
+          <p>Proficient in HTML, CSS, and JavaScript. Experienced in responsive web design, building user-friendly
+            interfaces, and using modern frameworks like ReactJS..</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Java Developer</h2>
+          <p>Proficient in Java, experienced in object-oriented programming, building scalable applications, and using
+            frameworks like Spring.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-server"></i>
+          <h2>Backend Designer</h2>
+          <p>Proficient in server-side programming, database management, and using backend technologies like Node.js,
+            Java, and frameworks such as Spring and Express. Experienced in building scalable, high-performance
+            applications and APIs.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ----------------Portfolio--------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title"> My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Lern Ai Website</h3>
+            <p>The app connects you to the talented people around the world.
+              Download it form play store.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>eCommerce Website</h3>
+            <p>The app connects you to the talented people around the world.
+              Download it form play store.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Zoom App Clone</h3>
+            <p>The app connects you to the talented people around the world.
+              Download it form play store.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- --------------Contact----------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> aryanraj8674811429@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 91+6207724519</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/aryan-raj-861670212/
+          "><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href=":https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/craanyone_?igsh=OG9kYjJuZmdqZHdy"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <!-- -------------Copyright--------- -->
+
+    <div class="copyright">
+      <p>Copyright @Aryan. Made with <i class="fa-solid fa-heart"></i> by Aryan Raj</p>
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- -------------JavaScript------------- -->
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7iYACVDuT4z87On_I-YnMII6YRXwrR_Xa7J2edETPtJEAUDVPUjq7drrniDSSMCb_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
